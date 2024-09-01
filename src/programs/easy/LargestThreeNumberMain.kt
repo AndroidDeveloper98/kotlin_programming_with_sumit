@@ -1,4 +1,4 @@
-package programs.basic
+package programs.easy
 
 fun main() {
     val numbers = intArrayOf(1, 2, 3, 10, 24, 56, 100, 56, 78, 96, 38, 30, 38)

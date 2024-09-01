@@ -1,4 +1,4 @@
-package programs.basic
+package programs.easy
 
 /**
  * Program to reverse string.

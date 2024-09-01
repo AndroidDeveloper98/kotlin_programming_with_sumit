@@ -1,4 +1,4 @@
-package programs.basic
+package programs.easy
 
 /**
  * Check given number even or odd.

@@ -1,4 +1,4 @@
-package programs.basic
+package programs.easy
 
 fun main() {
     print("Enter first value : ")

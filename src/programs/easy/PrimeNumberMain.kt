@@ -1,4 +1,4 @@
-package programs.basic
+package programs.easy
 
 // Main function: entry point of the program
 fun main() {
