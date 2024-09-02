@@ -1,5 +1,17 @@
 package basic.topic_18
 
+
+/**
+ * An interface is a contract for a class that defines a set of abstract methods and properties.
+ * Interfaces can also contain default implementations for methods.
+ *
+ *
+ * An interface is a contract that defines a set of methods or properties that a class must implement.
+ * Unlike abstract classes, interfaces do not hold state, although Kotlin does allow interfaces to include
+ * default method implementations
+ *
+ */
+
 // Define an interface `Greeting` with a single method `greeting()`
 interface Greeting {
     fun greeting()
