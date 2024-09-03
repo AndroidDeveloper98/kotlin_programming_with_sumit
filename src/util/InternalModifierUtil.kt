@@ -1,8 +1,16 @@
 package util
 
- internal class InternalModifierUtil {
-    internal var greetingMessage = "Hello, Good Morning..."
-    internal fun greeting(){
-        println(greetingMessage)
+import basic.topic_20.ProtectedModifier
+
+fun main() {
+    val internalModifierUtil = InternalModifierUtil()
+    internalModifierUtil.greetingUtil()
+}
+
+class InternalModifierUtil : ProtectedModifier() {
+    internal var greetingMessageUtil = "Hello, Good Morning..."
+    internal fun greetingUtil(){
+        println(greetingMessageUtil)
+        greeting()
     }
 }

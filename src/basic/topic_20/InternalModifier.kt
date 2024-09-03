@@ -8,8 +8,8 @@ fun main() {
     internalModifier.greeting()
 
     val internalModifierUtil = InternalModifierUtil() // This class also belong same module.
-    internalModifierUtil.greetingMessage = "Hello, Util"
-    internalModifierUtil.greeting()
+    internalModifierUtil.greetingMessageUtil = "Hello, Util"
+    internalModifierUtil.greetingUtil()
 }
 
 class InternalModifier(){
